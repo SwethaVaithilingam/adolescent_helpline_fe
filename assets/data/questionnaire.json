@@ -1,0 +1,494 @@
+{
+  "sections": [
+    {
+      "title_en": "Basic Information",
+      "title_ta": "அடிப்படை தகவல்கள்",
+      "questions": [
+        {
+          "id": 1,
+          "question_en": "Gender",
+          "question_ta": "பாலினம்",
+          "type": "mcq",
+          "options": [
+            {"en": "Boy", "ta": "ஆண்"},
+            {"en": "Girl", "ta": "பெண்"},
+            {"en": "Prefer not to say", "ta": "சொல்ல விரும்பவில்லை"}
+          ]
+        },
+        {
+          "id": 2,
+          "question_en": "Medium of instruction",
+          "question_ta": "பயிற்றுமொழி",
+          "type": "mcq",
+          "options": [
+            {"en": "Tamil", "ta": "தமிழ்"},
+            {"en": "English", "ta": "ஆங்கிலம்"}
+          ]
+        },
+        {
+          "id": 3,
+          "question_en": "Type of family you live in",
+          "question_ta": "நீங்கள் வாழும் குடும்ப வகை",
+          "type": "mcq",
+          "options": [
+            {"en": "Nuclear family", "ta": "தனிக்குடும்பம்"},
+            {"en": "Joint family", "ta": "கூட்டு குடும்பம்"},
+            {"en": "Single-parent family", "ta": "ஒற்றை பெற்றோர் குடும்பம்"},
+            {"en": "Living with relatives/guardians", "ta": "உறவினர்கள் / பாதுகாவலர்களுடன் வாழ்கிறேன்"}
+          ]
+        },
+        {
+          "id": 4,
+          "question_en": "Details of siblings",
+          "question_ta": "சகோதரர் / சகோதரிகள் விவரம்",
+          "type": "mcq",
+          "options": [
+            {"en": "One", "ta": "ஒருவர்"},
+            {"en": "Two", "ta": "இருவர்"},
+            {"en": "Three or more", "ta": "மூன்று அல்லது அதற்கு மேல்"},
+            {"en": "Not applicable", "ta": "பொருந்தாது"}
+          ]
+        }
+      ]
+    },
+    {
+      "title_en": "School & Academic Experience",
+      "title_ta": "பள்ளி மற்றும் கல்வி அனுபவம்",
+      "questions": [
+        {
+          "id": 5,
+          "question_en": "How do you usually feel about going to school?",
+          "question_ta": "பள்ளிக்குச் செல்வது பற்றி நீங்கள் எப்படி உணர்கிறீர்கள்?",
+          "type": "mcq",
+          "options": [
+            {"en": "I enjoy going to school", "ta": "பள்ளிக்குச் செல்வது மிகவும் பிடிக்கும்"},
+            {"en": "I feel okay, no strong feelings", "ta": "நான் நன்றாக உணர்கிறேன், வலுவான உணர்வுகள் இல்லை"},
+            {"en": "I go because I have to", "ta": "நான் போக வேண்டியிருப்பதால் போகிறேன்"},
+            {"en": "I often feel stressed or unhappy", "ta": "நான் அடிக்கடி மன அழுத்தமாக அல்லது மகிழ்ச்சியற்றதாக உணர்கிறேன்"}
+          ]
+        },
+        {
+          "id": 6,
+          "question_en": "Which part of school life feels most difficult for you?",
+          "question_ta": "பள்ளி வாழ்க்கையில் உங்களுக்கு மிகவும் கடினமாக இருப்பது எது?",
+          "type": "mcq",
+          "options": [
+            {"en": "Understanding lessons", "ta": "பாடங்களைப் புரிந்துகொள்வது"},
+            {"en": "Completing homework", "ta": "வீட்டுப்பாடம் முடிப்பது"},
+            {"en": "Exams and tests", "ta": "தேர்வுகள்"},
+            {"en": "Managing time for studies", "ta": "படிப்புக்கான நேரத்தை நிர்வகித்தல்"},
+            {"en": "Relationships with teachers", "ta": "ஆசிரியர்களுடன் உறவு"}
+          ]
+        },
+        {
+          "id": 7,
+          "question_en": "Before exams, how do you feel?",
+          "question_ta": "தேர்வுகளுக்கு முன், நீங்கள் எப்படி உணர்கிறீர்கள்?",
+          "type": "mcq",
+          "options": [
+            {"en": "I feel confident and prepared", "ta": "நம்பிக்கையுடன் தயார் இருப்பேன்"},
+            {"en": "I feel nervous but manage", "ta": "பதட்டமாக இருக்கும் ஆனாலும் சமாளிப்பேன்"},
+            {"en": "Trouble in sleeping or concentrating", "ta": "தூங்குவதில் / கவனம் செலுத்துவதில் சிக்கல்"},
+            {"en": "I feel scared even if I prepare", "ta": "நான் தயாரானாலும் கூட பயமாக இருக்கிறது"}
+          ]
+        },
+        {
+          "id": 8,
+          "question_en": "How comfortable are you asking doubts in class?",
+          "question_ta": "வகுப்பில் சந்தேகங்களைக் கேட்பது உங்களுக்கு எப்படி இருக்கிறது?",
+          "type": "mcq",
+          "options": [
+            {"en": "Very comfortable", "ta": "மிகவும் வசதியாக"},
+            {"en": "Somewhat comfortable", "ta": "சற்று வசதியாக"},
+            {"en": "Rarely comfortable", "ta": "அரிதாக"},
+            {"en": "I never ask doubts", "ta": "ஒருபோதும் கேட்கமாட்டேன்"}
+          ]
+        },
+        {
+          "id": 9,
+          "question_en": "What mainly worries you about exams?",
+          "question_ta": "தேர்வைப் பற்றிய உங்கள் முக்கியமானக் கவலை எது?",
+          "type": "mcq",
+          "options": [
+            {"en": "Low marks", "ta": "குறைந்த மதிப்பெண்கள்"},
+            {"en": "Comparison with others", "ta": "பிறருடன் ஒப்பிடப்படுதல்"},
+            {"en": "Fear of teachers’ reaction", "ta": "ஆசிரியர்களைப் பற்றிய பயம்"},
+            {"en": "Fear of parents’ reaction", "ta": "பெற்றோரைப் பற்றிய பயம்"},
+            {"en": "I don’t feel worried", "ta": "கவலை இல்லை"}
+          ]
+        },
+        {
+          "id": 10,
+          "question_en": "Do you feel the school syllabus is manageable for you?",
+          "question_ta": "பாடத்திட்டம் உங்களுக்கு சமாளிக்கக்கூடியதாக உள்ளதா?",
+          "type": "mcq",
+          "options": [
+            {"en": "Yes, fully manageable", "ta": "முழுமையாக சமாளிக்க முடிகிறது"},
+            {"en": "Mostly manageable", "ta": "பெரும்பாலும் முடிகிறது"},
+            {"en": "Difficult sometimes", "ta": "சில நேரங்களில் கடினம்"},
+            {"en": "Very difficult", "ta": "மிகவும் கடினம்"}
+          ]
+        },
+        {
+          "id": 11,
+          "question_en": "How often do you feel overloaded with homework or assignments?",
+          "question_ta": "வீட்டுப்பாடம் மற்றும் வகுப்பு பணிகளால் நீங்கள் எவ்வளவு சுமையாக உணர்கிறீர்கள்?",
+          "type": "mcq",
+          "options": [
+            {"en": "Never", "ta": "ஒருபோதும் இல்லை"},
+            {"en": "Sometimes", "ta": "சில நேரங்களில்"},
+            {"en": "Often", "ta": "அடிக்கடி"},
+            {"en": "Almost every day", "ta": "பெரும்பாலான நாட்கள்"}
+          ]
+        },
+        {
+          "id": 12,
+          "question_en": "Do teachers encourage you when you struggle academically?",
+          "question_ta": "படிப்பில் சிரமப்படும்போது ஆசிரியர்கள் ஊக்குவிக்கிறார்களா?",
+          "type": "mcq",
+          "options": [
+            {"en": "Always", "ta": "எப்போதும்"},
+            {"en": "Sometimes", "ta": "சில நேரங்களில்"},
+            {"en": "Rarely", "ta": "அரிதாக"},
+            {"en": "Never", "ta": "ஒருபோதும் இல்லை"}
+          ]
+        }
+      ]
+    },
+    {
+      "title_en": "Parents & Family Environment",
+      "title_ta": "பெற்றோர் மற்றும் குடும்ப சூழல்",
+      "questions": [
+        {
+          "id": 13,
+          "question_en": "Parents’ reaction to your academic performance",
+          "question_ta": "உங்கள் படிப்பைப் பற்றி பெற்றோரின் அணுகுமுறை?",
+          "type": "mcq",
+          "options": [
+            {"en": "Encourage calmly", "ta": "அமைதியாக ஊக்குவிக்கிறார்கள்"},
+            {"en": "Expect better", "ta": "இன்னும் சிறப்பாக எதிர்பார்க்கிறார்கள்"},
+            {"en": "Scold or compare", "ta": "திட்டுகிறார்கள் / ஒப்பிடுகிறார்கள்"},
+            {"en": "Mostly not involved", "ta": "அதிகம் கவலைப்படுவதில்லை"}
+          ]
+        },
+        {
+          "id": 14,
+          "question_en": "Family pressure for marks",
+          "question_ta": "குடும்பத்தில் மதிப்பெண்களுக்கான அழுத்தம்",
+          "type": "mcq",
+          "options": [
+            {"en": "No pressure", "ta": "அழுத்தம் இல்லை"},
+            {"en": "Mild pressure", "ta": "சற்று"},
+            {"en": "A lot of pressure", "ta": "அதிகம்"},
+            {"en": "Extreme pressure", "ta": "மிகவும் அதிகம்"}
+          ]
+        },
+        {
+          "id": 15,
+          "question_en": "Arguments at home",
+          "question_ta": "வீட்டில் வாக்குவாதங்கள்",
+          "type": "mcq",
+          "options": [
+            {"en": "Never", "ta": "ஒருபோதும் இல்லை"},
+            {"en": "Sometimes", "ta": "சில நேரங்களில்"},
+            {"en": "Often", "ta": "அடிக்கடி"},
+            {"en": "Almost every day", "ta": "தினமும் போல"}
+          ]
+        },
+        {
+          "id": 16,
+          "question_en": "Relationship with siblings",
+          "question_ta": "சகோதரர்/சகோதரிகளுடனான உறவு",
+          "type": "mcq",
+          "options": [
+            {"en": "Friendly or supportive", "ta": "நட்பு மற்றும் ஆதரவு"},
+            {"en": "Normal", "ta": "சாதாரணம்"},
+            {"en": "Stressful", "ta": "மன அழுத்தமானது"},
+            {"en": "Ignored or unfair", "ta": "புறக்கணிப்பு / சாதகமற்ற"},
+            {"en": "Not applicable", "ta": "பொருந்தாது"}
+          ]
+        },
+        {
+          "id": 17,
+          "question_en": "Do parents understand your problems?",
+          "question_ta": "பெற்றோர் உங்கள் பிரச்சனைகளை புரிந்துகொள்கிறார்களா?",
+          "type": "mcq",
+          "options": [
+            {"en": "Yes, very well", "ta": "முழுமையாக"},
+            {"en": "To some extent", "ta": "ஓரளவு"},
+            {"en": "Very little", "ta": "மிகக் குறைவு"},
+            {"en": "Not at all", "ta": "எப்போதும் இல்லை"}
+          ]
+        },
+        {
+          "id": 18,
+          "question_en": "Comparison with others",
+          "question_ta": "மற்றவர்களுடனான ஒப்பீடு",
+          "type": "mcq",
+          "options": [
+            {"en": "Never", "ta": "ஒருபோதும் இல்லை"},
+            {"en": "Rarely", "ta": "அரிதாக"},
+            {"en": "Sometimes", "ta": "சில நேரங்களில்"},
+            {"en": "Often", "ta": "அடிக்கடி"}
+          ]
+        },
+        {
+          "id": 19,
+          "question_en": "Financial difficulty effect",
+          "question_ta": "பொருளாதார பிரச்சனை உங்களை பாதிக்கிறதா?",
+          "type": "mcq",
+          "options": [
+            {"en": "Not at all", "ta": "இல்லை"},
+            {"en": "A little", "ta": "சற்று"},
+            {"en": "A lot", "ta": "அதிகம்"},
+            {"en": "I am not sure", "ta": "தெரியவில்லை"}
+          ]
+        },
+        {
+          "id": 20,
+          "question_en": "Do you feel safe to talk at home?",
+          "question_ta": "வீட்டில் பிரச்சனைகளை பேச பாதுகாப்பாக உணர்கிறீர்களா?",
+          "type": "mcq",
+          "options": [
+            {"en": "Yes, always", "ta": "எப்போதும்"},
+            {"en": "Sometimes", "ta": "சில நேரங்களில்"},
+            {"en": "Rarely", "ta": "அரிதாக"},
+            {"en": "Never", "ta": "ஒருபோதும் இல்லை"}
+          ]
+        }
+      ]
+    },
+    {
+      "title_en": "Peer Relationships & Social Life",
+      "title_ta": "நண்பர்கள் மற்றும் சமூக வாழ்க்கை",
+      "questions": [
+        {
+          "id": 21,
+          "question_en": "Comfort with classmates",
+          "question_ta": "வகுப்பு தோழர்களுடனான உறவு",
+          "type": "mcq",
+          "options": [
+            {"en": "Very comfortable", "ta": "மிகவும் வசதியாக"},
+            {"en": "Mostly comfortable", "ta": "பெரும்பாலும்"},
+            {"en": "Sometimes uncomfortable", "ta": "சில நேரங்களில்"},
+            {"en": "Very uncomfortable", "ta": "மிகவும் சிரமம்"}
+          ]
+        },
+        {
+          "id": 22,
+          "question_en": "Feeling left out",
+          "question_ta": "புறக்கணிக்கப்பட்டதாக உணர்ந்ததுண்டா?",
+          "type": "mcq",
+          "options": [
+            {"en": "Never", "ta": "இல்லை"},
+            {"en": "Rarely", "ta": "அரிதாக"},
+            {"en": "Sometimes", "ta": "சில நேரங்களில்"},
+            {"en": "Often", "ta": "அடிக்கடி"}
+          ]
+        },
+        {
+          "id": 23,
+          "question_en": "Experience of bullying or teasing",
+          "question_ta": "உங்களுக்கு கொடுமைப்படுத்துதல் அல்லது கிண்டல் செய்த அனுபவம் உள்ளதா?",
+          "type": "mcq",
+          "options": [
+            {"en": "No", "ta": "இல்லை"},
+            {"en": "Once or twice", "ta": "ஒருமுறை / இருமுறை"},
+            {"en": "Many times", "ta": "பலமுறை"},
+            {"en": "Not sure", "ta": "தெரியவில்லை"}
+          ]
+        },
+        {
+          "id": 24,
+          "question_en": "Where do you feel peer impact?",
+          "question_ta": "நண்பர்களின் தாக்கத்தை எங்கே உணர்கிறீர்கள்?",
+          "type": "mcq",
+          "options": [
+            {"en": "Studies", "ta": "படிப்பு"},
+            {"en": "Dress or appearance", "ta": "உடை / தோற்றம்"},
+            {"en": "Behaviour", "ta": "நடத்தை"},
+            {"en": "Mobile or social media", "ta": "மொபைல் / சமூக வலைதளம்"},
+            {"en": "Not influenced", "ta": "பாதிப்பு இல்லை"}
+          ]
+        },
+        {
+          "id": 25,
+          "question_en": "Saying no to friends",
+          "question_ta": "நண்பர்களிடம் 'இல்லை' என்று சொல்லும் திறன்",
+          "type": "mcq",
+          "options": [
+            {"en": "Very easy", "ta": "மிகவும் எளிது"},
+            {"en": "Somewhat easy", "ta": "சற்று எளிது"},
+            {"en": "Difficult", "ta": "கடினம்"},
+            {"en": "Very difficult", "ta": "மிகவும் கடினம்"}
+          ]
+        },
+        {
+          "id": 26,
+          "question_en": "Do you feel pressure to fit in?",
+          "question_ta": "நீங்கள் ஏற்றுக்கொள்ளப்பட வேண்டிய அழுத்தத்தை உணர்கிறீர்களா?",
+          "type": "mcq",
+          "options": [
+            {"en": "Never", "ta": "இல்லை"},
+            {"en": "Sometimes", "ta": "சில நேரங்களில்"},
+            {"en": "Often", "ta": "அடிக்கடி"},
+            {"en": "Always", "ta": "எப்போதும்"}
+          ]
+        },
+        {
+          "id": 27,
+          "question_en": "Do conflicts affect studies?",
+          "question_ta": "மோதல்கள் படிப்பை பாதிக்கிறதா?",
+          "type": "mcq",
+          "options": [
+            {"en": "Not at all", "ta": "இல்லை"},
+            {"en": "A little", "ta": "சற்று"},
+            {"en": "A lot", "ta": "அதிகம்"},
+            {"en": "Very much", "ta": "மிகவும்"}
+          ]
+        }
+      ]
+    },
+    {
+      "title_en": "Digital Life & Daily Habits",
+      "title_ta": "டிஜிட்டல் வாழ்க்கை மற்றும் தினசரி பழக்கங்கள்",
+      "questions": [
+        {
+          "id": 28,
+          "question_en": "Daily mobile use",
+          "question_ta": "தினசரி கைப்பேசி பயன்பாடு",
+          "type": "mcq",
+          "options": [
+            {"en": "< 1 hour", "ta": "1 மணி நேரத்திற்கும் குறைவு"},
+            {"en": "1–2 hours", "ta": "1–2 மணி"},
+            {"en": "2–4 hours", "ta": "2–4 மணி"},
+            {"en": "More than 4 hours", "ta": "4 மணிக்கு மேல்"}
+          ]
+        },
+        {
+          "id": 29,
+          "question_en": "Mobile effect",
+          "question_ta": "கைப்பேசி மூலம் அதிகம் பாதிப்பது",
+          "type": "mcq",
+          "options": [
+            {"en": "Studies", "ta": "படிப்பு"},
+            {"en": "Sleep", "ta": "தூக்கம்"},
+            {"en": "Mood", "ta": "மனநிலை"},
+            {"en": "Relationships", "ta": "உறவுகள்"},
+            {"en": "No effect", "ta": "பாதிப்பு இல்லை"}
+          ]
+        },
+        {
+          "id": 30,
+          "question_en": "Social media before sleep",
+          "question_ta": "தூங்கும் முன் சமூக வலைதளம்",
+          "type": "mcq",
+          "options": [
+            {"en": "Never", "ta": "இல்லை"},
+            {"en": "Sometimes", "ta": "சில நேரங்களில்"},
+            {"en": "Often", "ta": "அடிக்கடி"},
+            {"en": "Every day", "ta": "தினமும்"}
+          ]
+        },
+        {
+          "id": 31,
+          "question_en": "Restlessness without phone",
+          "question_ta": "மொபைல் இல்லாமல் இருப்பதில் சிரமம்",
+          "type": "mcq",
+          "options": [
+            {"en": "Never", "ta": "இல்லை"},
+            {"en": "Sometimes", "ta": "சில நேரங்களில்"},
+            {"en": "Often", "ta": "அடிக்கடி"},
+            {"en": "Almost always", "ta": "பெரும்பாலும்"}
+          ]
+        },
+        {
+          "id": 32,
+          "question_en": "Sleep hours",
+          "question_ta": "தூங்கும் நேரம்",
+          "type": "mcq",
+          "options": [
+            {"en": "More than 8 hours", "ta": "8 மணிக்கு மேல்"},
+            {"en": "7–8 hours", "ta": "7–8 மணி"},
+            {"en": "5–6 hours", "ta": "5–6 மணி"},
+            {"en": "Less than 5 hours", "ta": "5 மணிக்கு குறைவு"}
+          ]
+        },
+        {
+          "id": 33,
+          "question_en": "Sleep effect on studies",
+          "question_ta": "படிப்புகளில் தூக்கத்தின் விளைவு",
+          "type": "mcq",
+          "options": [
+            {"en": "Not at all", "ta": "இல்லை"},
+            {"en": "A little", "ta": "சற்று"},
+            {"en": "A lot", "ta": "அதிகம்"},
+            {"en": "Not sure", "ta": "தெரியவில்லை"}
+          ]
+        }
+      ]
+    },
+    {
+      "title_en": "Support Needs & Helpline Readiness",
+      "title_ta": "ஆதரவு தேவைகள் மற்றும் உதவி சேவை",
+      "questions": [
+        {
+          "id": 34,
+          "question_en": "Would you use a school mental health helpline if available?",
+          "question_ta": "பள்ளியில் மனநல உதவி சேவை இருந்தால் பயன்படுத்துவீர்களா?",
+          "type": "mcq",
+          "options": [
+            {"en": "Yes, definitely", "ta": "கண்டிப்பாக"},
+            {"en": "Maybe", "ta": "இருக்கலாம்"},
+            {"en": "Not sure", "ta": "தெரியவில்லை"},
+            {"en": "No", "ta": "இல்லை"}
+          ]
+        },
+        {
+          "id": 35,
+          "question_en": "What type of support do you need?",
+          "question_ta": "எந்த ஆதரவு தேவை?",
+          "type": "mcq",
+          "options": [
+            {"en": "Academic stress", "ta": "படிப்பு அழுத்தம்"},
+            {"en": "Emotional support", "ta": "மன ஆதரவு"},
+            {"en": "Family issues", "ta": "குடும்ப பிரச்சனைகள்"},
+            {"en": "Friendship issues", "ta": "நண்பர் பிரச்சனைகள்"},
+            {"en": "Career guidance", "ta": "தொழில் வழிகாட்டல்"}
+          ]
+        },
+        {
+          "id": 36,
+          "question_en": "Preferred mode of support",
+          "question_ta": "உதவி பெற விரும்பும் முறை",
+          "type": "mcq",
+          "options": [
+            {"en": "Phone call", "ta": "தொலைபேசி"},
+            {"en": "Chat or message", "ta": "மெசேஜ் / சாட்"},
+            {"en": "Video call", "ta": "வீடியோ அழைப்பு"},
+            {"en": "Face-to-face", "ta": "நேரில் சந்திப்பு"}
+          ]
+        },
+        {
+          "id": 37,
+          "question_en": "Barriers to seeking help",
+          "question_ta": "உதவி தேடுவதில் தடைகள்",
+          "type": "mcq",
+          "options": [
+            {"en": "Fear of judgment", "ta": "விமர்சனம் பயம்"},
+            {"en": "Lack of awareness", "ta": "அறியாமை"},
+            {"en": "Fear parents or teachers know", "ta": "பெற்றோர் / ஆசிரியர்களுக்கு தெரிந்துவிடுமோ என்ற பயம்"},
+            {"en": "Not trusting anyone", "ta": "நம்பிக்கை இல்லை"},
+            {"en": "Nothing stops me", "ta": "எதுவும் தடையில்லை"}
+          ]
+        },
+        {
+          "id": 38,
+          "question_en": "One thing you wish adults understood better",
+          "question_ta": "பெரியவர்கள் மாணவர்களைப் பற்றி மேலும் புரிந்துகொள்ள வேண்டிய ஒன்று",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
