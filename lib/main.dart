@@ -3,7 +3,7 @@ import 'package:adolescent_helpline/features/presentation/screens/dass21_screen.
 import 'package:adolescent_helpline/features/presentation/screens/home_screen.dart';
 import 'package:adolescent_helpline/features/presentation/screens/login_screen.dart';
 import 'package:adolescent_helpline/features/presentation/screens/profile_screen.dart';
-import 'package:adolescent_helpline/features/presentation/screens/signup_screen.dart';
+import 'package:adolescent_helpline/features/presentation/screens/signup_screen1.dart';
 import 'package:adolescent_helpline/features/presentation/screens/phq9_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
       // App routes
       routes: {
         '/login': (context) => const LoginPage(),
-        '/signup': (context) => const SignupPage(),
+        '/signup': (context) => const SignupScreen1(),
         '/home': (context) => const HomePage(),
         '/questionnaire': (context) => const QuestionnairePage(),
         '/profile':(context) => const ProfilePage(),

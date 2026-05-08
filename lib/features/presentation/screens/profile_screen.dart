@@ -21,10 +21,10 @@ class _ProfilePageState extends State<ProfilePage> {
 
   @override
   void initState() {
-    super.initState();
+    super.initState();  
     fetchProfile();
   }
-
+ 
   Future<void> fetchProfile() async {
     try {
       String? token = await storage.read(key: "access_token");
