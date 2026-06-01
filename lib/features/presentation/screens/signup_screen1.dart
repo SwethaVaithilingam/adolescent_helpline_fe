@@ -71,10 +71,12 @@ class _SignupScreen1State extends State<SignupScreen1> {
         );
       }
     } catch (e) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Error: $e")),
-      );
-    }
+  print("ERROR: $e");
+
+  ScaffoldMessenger.of(context).showSnackBar(
+    SnackBar(content: Text("Error: $e")),
+  );
+}
 
     setState(() => loading = false);
   }
@@ -116,10 +118,12 @@ class _SignupScreen1State extends State<SignupScreen1> {
         );
       }
     } catch (e) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Error: $e")),
-      );
-    }
+  print("ERROR: $e");
+
+  ScaffoldMessenger.of(context).showSnackBar(
+    SnackBar(content: Text("Error: $e")),
+  );
+}
 
     setState(() => loading = false);
   }
