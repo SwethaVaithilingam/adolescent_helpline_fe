@@ -20,6 +20,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
   late TextEditingController nameController;
   late TextEditingController dobController;
   late TextEditingController classController;
+  late TextEditingController schoolController;
   late TextEditingController districtController;
 
   bool isSaving = false;
@@ -37,6 +38,8 @@ class _EditProfilePageState extends State<EditProfilePage> {
     // IMPORTANT: backend uses student_class
     classController =
         TextEditingController(text: widget.profile["student_class"] ?? "");
+
+    schoolController = TextEditingController(text:widget.profile["school_name"]??"");
 
     districtController =
         TextEditingController(text: widget.profile["district"] ?? "");
@@ -58,6 +61,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
           "name": nameController.text,
           "dob":dobController.text,
           "student_class": classController.text,
+          "school_name":schoolController.text,
           "district": districtController.text,
         }),
       );
@@ -119,6 +123,11 @@ class _EditProfilePageState extends State<EditProfilePage> {
             TextField(
               controller: classController,
               decoration: const InputDecoration(labelText: "Class"),
+            ),
+            const SizedBox(height: 20),
+            TextField(
+              controller: schoolController,
+              decoration: const InputDecoration(labelText: "School"),
             ),
                const SizedBox(height: 20),
             TextField(

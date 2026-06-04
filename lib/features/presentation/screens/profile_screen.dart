@@ -127,8 +127,8 @@ class _ProfilePageState extends State<ProfilePage> {
                           infoRow("Phone", profile!["phone"].toString()),
                           infoRow("Age", profile!["age"].toString()),
                           infoRow("Class", profile!["student_class"]?.toString() ?? "Not set"),
-                          infoRow(
-                              "District", profile!["district"].toString()),
+                          infoRow("School", profile!["school_name"].toString()),
+                          infoRow( "District", profile!["district"].toString()),
                         ],
                       ),
                     ),
